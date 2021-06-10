@@ -76,6 +76,8 @@ TARGET_KERNEL_CONFIG := X573_defconfig
 
 # Ramdisk compression
 LZMA_RAMDISK_TARGETS := recovery
+AVBTYPE_RAMDISK_TARGETS := recovery
+SIGTYPE_RAMDISK_TARGETS := AVBv1
 
 # Hack: prevent anti rollback
 PLATFORM_SECURITY_PATCH := 2099-12-31
