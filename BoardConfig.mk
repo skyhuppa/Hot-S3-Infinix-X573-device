@@ -71,11 +71,11 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz-dtb
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
-#TARGET_KERNEL_SOURCE := kernel/infinix/X573
-#TARGET_KERNEL_CONFIG := X573_defconfig
+TARGET_KERNEL_SOURCE := kernel/infinix/X573
+TARGET_KERNEL_CONFIG := X573_defconfig
 
 # Ramdisk compression
-#LZMA_RAMDISK_TARGETS := recovery
+LZMA_RAMDISK_TARGETS := recovery
 
 # Hack: prevent anti rollback
 PLATFORM_SECURITY_PATCH := 2099-12-31
