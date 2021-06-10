@@ -75,7 +75,7 @@ TARGET_KERNEL_SOURCE := kernel/infinix/X573
 TARGET_KERNEL_CONFIG := X573_defconfig
 
 # Ramdisk compression
-LZMA_RAMDISK_TARGETS := recovery
+#LZMA_RAMDISK_TARGETS := recovery
 
 # Hack: prevent anti rollback
 PLATFORM_SECURITY_PATCH := 2099-12-31
